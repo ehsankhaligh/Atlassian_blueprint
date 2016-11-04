@@ -35,6 +35,13 @@
 
         </dependency>
 
+        <dependency>
+            <groupId>com.atlassian.confluence.plugins</groupId>
+            <artifactId>confluence-create-content-plugin</artifactId>
+            <version>${create.content.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
 
         <!--  WIRED TEST RUNNER DEPENDENCIES  -->
         <dependency>
@@ -107,8 +114,14 @@
 
 
     <properties>
+        <!--confluence.version>5.8.4</confluence.version>
+        <confluence.data.version>5.7.4</confluence.data.version>
+        <amps.version>6.2.6</amps.version>
+        <plugin.testrunner.version>1.2.3</plugin.testrunner.version-->
+        <!--Works-->
         <confluence.version>5.8.4</confluence.version>
         <confluence.data.version>5.7.4</confluence.data.version>
+        <create.content.version>4.0.9</create.content.version>
         <amps.version>6.2.6</amps.version>
         <plugin.testrunner.version>1.2.3</plugin.testrunner.version>
 
