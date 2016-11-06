@@ -25,7 +25,11 @@
     <!-- Template for Blueprint -->
     <content-template key="JiraReqTemp-template" template-title-key="my.blueprint.title">
         <resource name="template" type="download" location="/templates/mytemplate.xml" />
-    </content-template>
+     <!--context-provider class="com.plugins.confluence.JiraReqTemp1.MyContextProvider"/-->
+
+    <!--content-template key="JiraReqTemp-template" template-title-key="my.blueprint.title">
+        <resource name="template" type="download" location="/templates/mytemplate.xml" />
+    </content-template-->
 
     <!-- Add to the Create Menu -->
     <web-item key="create-by-sample-template" i18n-name-key="my.create-link.title" section="system.create.dialog/content">
